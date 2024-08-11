@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./countryDetails.css";
 import CountryPageShimmer from "./CountryPageShimmer";
 import { Link, useLocation, useParams } from "react-router-dom";
-import useTheme from "../hooks/useTheme";
+import { useTheme } from "../hooks/useTheme";
 
 export default function CountryDetail({}) {
   const { state } = useLocation();

@@ -1,4 +1,4 @@
-import useTheme from "../hooks/useTheme";
+import { useTheme } from "../hooks/useTheme";
 
 export default function Header() {
   const [isDark, setIsDark] = useTheme();

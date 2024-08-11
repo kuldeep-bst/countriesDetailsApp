@@ -2,7 +2,7 @@ import SearchBar from "./SearchBar";
 import SelectMenu from "./SelectMenu";
 import CountriesList from "./CountriesList";
 import { useState } from "react";
-import useTheme from "../hooks/useTheme";
+import { useTheme } from "../hooks/useTheme";
 
 export default function Home() {
   const [isDark] = useTheme();
